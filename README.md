@@ -6,5 +6,5 @@ A basic conditional evaluator.
 Simply include a Using statement, and then do the following:
 
 ```csharp
-bool result = ConditionalEvaluator.Evaluate().Expression("value > 10").WithValue(18);
+bool result = ConditionEvaluator.Evaluate().Expression("value > 10").WithValue(18);
 ```
